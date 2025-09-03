@@ -1,0 +1,13 @@
+[project]
+name = "audio-mix-reconstruction"
+version = "0.1.0"
+description = "Ridge regression for audio mix reconstruction from stems with metrics and JSON reports."
+authors = [{name = "Termeh Taheri"}]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
